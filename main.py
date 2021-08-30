@@ -13,6 +13,6 @@ exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 exercise_text = input("Tell me which exercises you did: ")
 
 headers = {
-    "x-app-id": APP_ID,
-    "x-app-key": API_KEY,
+    "x-app-id": NUTRI_APP_ID,
+    "x-app-key": NUTRI_API_KEY,
 }
