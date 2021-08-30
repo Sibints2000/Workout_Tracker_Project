@@ -24,3 +24,7 @@ parameters = {
     "height_cm": HEIGHT_CM,
     "age": AGE
 }
+
+response = requests.post(exercise_endpoint, json=parameters, headers=headers)
+result = response.json()
+print(result)
