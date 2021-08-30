@@ -1,5 +1,5 @@
 import requests
-from
+from datetime import datetime
 
 GENDER = "male"
 WEIGHT_KG = 55
@@ -28,4 +28,7 @@ parameters = {
 
 response = requests.post(exercise_endpoint, json=parameters, headers=headers)
 result = response.json()
-print(result)
+
+
+today_date = datetime.now().strftime("%d/%m/%Y")
+now_time = datetime.now().strftime("%X")
