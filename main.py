@@ -10,7 +10,7 @@ NUTRI_APP_ID = "076ea41b"
 NUTRI_API_KEY = "c13eec2beeb2141474e9c037be8fa7da"
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
-sheet_endpoint = "https://api.sheety.co"
+sheet_endpoint = "https://api.sheety.co/51506b64db4b68cc3ba2ce7ba0f5e57a/myWorkouts/workouts"
 
 exercise_text = input("Tell me which exercises you did: ")
 
