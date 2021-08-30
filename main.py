@@ -1,4 +1,6 @@
 
 
+NUTRI_APP_ID = "076ea41b"
+NUTRI_API_KEY = "c13eec2beeb2141474e9c037be8fa7da"
 
 
