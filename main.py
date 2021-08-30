@@ -8,4 +8,6 @@ AGE = 21
 NUTRI_APP_ID = "076ea41b"
 NUTRI_API_KEY = "c13eec2beeb2141474e9c037be8fa7da"
 
+exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
+
 
