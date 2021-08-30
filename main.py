@@ -45,4 +45,6 @@ for exercise in result["exercises"]:
         }
     }
 
+    sheet_response = requests.post(sheet_endpoint, json=sheet_inputs)
 
+    print(sheet_response.text)
