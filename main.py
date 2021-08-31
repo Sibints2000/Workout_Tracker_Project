@@ -48,7 +48,7 @@ for exercise in result["exercises"]:
     sheet_response = requests.post(sheet_endpoint, json=sheet_inputs)
 
     # Basic Auth
-    sheet_response = requests.post(
+    sheet_basic = requests.post(
         sheet_endpoint,
         json=sheet_inputs,
         auth=(
@@ -57,4 +57,4 @@ for exercise in result["exercises"]:
         )
     )
 
-    print(sheet_response.text)
+    print(sheet_basic.text)
