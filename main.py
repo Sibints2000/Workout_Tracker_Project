@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+from requests.auth import HTTPBasicAuth
 
 GENDER = "male"
 WEIGHT_KG = 55
