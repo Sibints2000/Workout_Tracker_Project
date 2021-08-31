@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from requests.auth import HTTPBasicAuth
+import os
 
 GENDER = "male"
 WEIGHT_KG = 55
@@ -49,3 +49,5 @@ for exercise in result["exercises"]:
     sheet_response = requests.post(sheet_endpoint, json=sheet_inputs)
 
     print(sheet_response.text)
+
+
